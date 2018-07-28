@@ -1,0 +1,475 @@
+/*
+body{
+    background: black;
+}
+*/
+
+#container{
+    font-size: 13px;
+/*    padding-bottom: 64px;*/
+/*    position: relative;*/
+}
+#page-header{
+    background: transparent;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    color:white;
+    margin: 0 auto;
+}
+.breadcrumbs {
+    position: relative;
+    width: :auto;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+ul .aa{
+    color: #e60012;
+}
+
+ul li{float: left;
+    margin-right: 20px;
+    list-style: none;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+.purine-kvInner{
+    position: absolute;
+    width: 100%;
+    top:0px;
+    left:0px;
+    right:0px;
+    margin: 0 auto;
+    height: 100%;
+}
+.purine-kv {
+    background-image: url("purine-kvBg01.png");
+/*    padding-top:%;*/
+    padding-bottom: 38%;
+/*    background-size: 1400px;*/
+    position:relative;
+    background-size: 130%;
+    background-position: center;
+}
+.purine-kvBox{
+    position: absolute;
+    height:100%;
+}
+.purine-label1{
+    position:relative;
+    height: 62%;
+    bottom:  -20%;
+    left:50%;
+}
+.yamada{
+    position:absolute;
+    bottom:-0.2%;
+    height:85%;
+    left:235%;
+}
+.tujiguti{
+    position: absolute;
+    bottom: 0%;
+    height:90%;
+    left:183%;
+}
+.purine-label2{
+    position: absolute;
+    height: 28%;
+    top:9%;
+    left:30%; 
+}
+.purine-kvCopy{
+    position: absolute;
+    height: 40%;
+    right:-163%;
+    top: 4%;
+}
+.y-name{
+    position: absolute;
+/*    height: 18%;*/
+    left: 330%;
+    bottom: 4%;
+}
+
+.t-name{
+    position: absolute;
+/*    height: 21.5%;*/
+    left :160%;
+    bottom: 6%;
+}
+.purine-kvTxt{
+    position: absolute;
+    bottom: 0%;
+    right: -50%;
+    color:white;
+}
+.purine-kvTxt_br{
+    display: none;
+}
+
+.purine-nav {
+/*    position: absolute;   */
+}
+
+.purine-item{
+    float: left;
+    width:20%;
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-size: 15px;
+    text-align: center;
+    color: #011d5a;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.purine-voice{
+    background: url("purine-voiceBg01.png");
+    padding: 50px 0 65%;
+    padding-top: 30px;
+    background-color: #ffef82;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: cover;
+    right:0;
+    left:0;
+        
+}
+
+.purine-ttl{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    position: relative;
+    color: #011d5a;
+    display: block;
+    content: "";
+    height: 15px;
+}
+
+/*
+.purine-voiceInner{
+    position: absolute;
+}
+*/
+
+.purine01{
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 140%
+}
+
+.balloon01{
+     position: absolute;
+    width: 15%;
+    top: 120%;
+    left: 45%
+}
+.balloon02{
+    position: absolute;
+    width: 19%;
+    top: 125%;
+    left: 25%
+}
+.balloon03{
+     position: absolute;
+    width: 15%;
+    top: 130%;
+    right: 24%;
+}
+.balloon04{
+     position: absolute;
+    width: 16%;
+    top: 145%;
+    left: 23%;
+}
+.balloon05{
+     position: absolute;
+    width: 15%;
+    top: 153%;
+    right: 25%;
+    bottom: 18%;
+}
+.balloon06{
+     position: absolute;
+    width: 15.5%;
+    left: 25%;
+    top: 170%;
+}
+.balloon07{
+     position: absolute;
+    width: 15%;
+    right:25%;
+    top: 170%;
+}
+.happyCareBanner_on{
+    position: absolute;
+    width: 75%;
+    right:10%;
+    top:192%;
+/*    bottom: 3%;*/
+}
+
+.introduce{
+    position: absolute;
+    width: 60%;
+    right:20%;
+    bottom:-167%;
+}
+
+
+.purine-introduce{
+    padding-top: 6%;
+    padding-bottom: 2%;
+}
+
+.purine-includeTxt{
+    position: relative;
+    text-align: center;
+    margin-top:10%;
+    color: #011d5a;
+        line-height: 1.8;
+    font-size: 23px;
+}
+
+.purine-includeTxt2{
+    font-size: 18px;
+}
+
+.purine-introduce01-2{
+    position: absolute;
+    width: 10%;
+    left: 22.5%;
+    bottom: -206.5%;
+}
+.purine001{
+    position: absolute;
+    padding: 4.5%;
+    width: 18%;
+    left: 21.5%;
+    bottom: -242.5%;
+    background-image: url("purine-introduce01-3.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    display: block;
+}
+.purine-introduce02-2{
+     position: absolute;
+    width: 10%;
+    left: 55%;
+    bottom: -205%;
+}
+.purine02{
+    position: absolute;
+    padding: 3.5%;
+    width: 20.5%;
+    left: 54%;
+    bottom: -242%;
+    background-image: url("purine-introduce02-3.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    display: block;
+}
+.purine-secret{
+/*
+    padding-top: 125.5%;
+    background-image: url("purine-secretBg.png");
+*/
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    background-size:auto 40%;
+/*    padding: 42%;*/
+}
+.purine-secret-header{
+    position: absolute;
+    top: 365%;
+    left:20%;
+/*    padding: 100%;*/
+    
+}
+.purine-ttl2{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    position: relative;
+    color: #011d5a;
+    display: block;
+    content: "";
+    height: 50%;
+/*    padding-top: 35%;*/
+}
+.secret{
+    position: absolute;
+    width: 60%;
+    right:20%;
+    top: 30%;
+}
+
+.purine-secretTxt{
+    position: relative;
+    text-align: center;
+    padding-top:10%;
+    color: #011d5a;
+        line-height: 1.8;
+    font-size: 23px;
+}
+
+.bbb{
+    color:#e60012;
+}
+.ccc{
+    color:#4e6a28;
+}
+.secret2{
+    position: absolute;
+    left:35%;
+    width: 33%;
+    bottom:-337%;
+}
+.secret-peaple{
+     position:absolute;
+    left:19%;
+    width: 21%;
+    top:404%;
+}
+
+.purine-secretPeopleItemName{
+    position: absolute;
+   left:46%;
+    width: 9%;
+    top:443%;
+}
+
+.purine-secretPeopleItemAbout{
+    text-align: center;
+   position: absolute;
+   left:41%;
+    top:447%;
+    font-size:14px;
+    border-top: solid 1px #011d5a;
+    color: #011d5a;
+}
+.purine-rokabo{
+    padding-top: 98%;
+}
+
+.purine-rokaboHeader{
+    text-align: center;
+    color: #011d5a;
+    font-weight: bold;
+}
+
+.purine-rokaboTxt{
+    color: #011d5a;
+    text-align: center;
+    font-size: 23px;
+}
+
+.purine-rokaboBox{
+    max-width: 960px;
+    width:100%;
+    margin: 53px 294px 50px;
+    background: #ffef82;
+    border: solid 5px #011d5a;
+    border-radius: 20px;
+    background-repeat: repeat;
+/*    position: relative;*/
+    background-size: auto;
+/*    background-image: none;*/
+    position: relative;
+    padding-bottom: 43%;
+}
+.purine-rokabo01{
+    background-color: #011d5a;
+    padding: 30px 51px 36px;
+    margin-top: -1px;
+    border-radius: 10px 10px 0 0;
+    background-size: auto;
+    background-repeat: repeat;
+    max-width: 858px;
+    margin: 0 auto;
+}
+
+
+.purine-rokaboPoint1{
+    padding: 0px 0px;
+    padding-bottom: 25%;
+    border-bottom: solid 2px #011d5a;
+    position:relative;
+/*    width: 30%;*/
+}
+
+.purine-rokaboPoint2{
+    color: #011d5a;
+    list-style: none;
+    border-left: dotted 4px #011d5a;
+    padding-left:30px;
+/*    margin-left:30px;*/
+    float: left;
+    width: 27%;
+}
+
+.point{
+    display: block;
+    width: 90px;
+}
+
+.Purine-rokaboTxt2{
+    margin-top: 8px;
+    line-height: 2;
+    font-size: 15px;
+    margin: 0;
+}
+
+.purine-rokabo02{
+    position: absolute;
+    top: 50%;
+    left:3%;
+    width: 57%;
+}
+
+.purine-rokaboPeaple2{
+    position: absolute;
+    top: 50%;
+    right:7%;
+    width: 26%;
+}
+.ppl02{
+    width: 104%;
+}
+
+.purine-rokaboPeopleList{
+    color: #011d5a;
+}
+.purine-rokaboPeopleItemName{
+    font-size: 16px;
+    border-bottom: 1px solid #011d5a;
+/*    color: #011d5a;*/
+}
+
+.purine-rokaboPeopleItemName_inline{
+    font-size: 13px;
+}
+.purine-rokaboPeopleItemAbout{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
