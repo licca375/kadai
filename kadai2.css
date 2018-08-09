@@ -1,0 +1,471 @@
+html{
+    font-size: 62.5%;
+/*    width: 1300px;*/
+}
+
+body {
+/*    width: 1300px;*/
+    height:auto;
+     margin: 0;
+     color: #011d5a;
+}
+.purine{
+     width: 100%;
+   position: relative;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+/*おいしい低糖質プリン*/
+.purine-top{
+    background-image: 
+    url("images/purine-kvBg01.png");
+    position:relative; 
+    width: 100%;
+    padding-top: 45.6%;
+    background-size:cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#purine-header .menu{
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color:white;
+    margin: 0 auto;
+    padding: 12px 0 7px;
+}
+
+#purine-header a{
+     color: #e60012;
+    text-decoration: none;
+}
+
+#purine-header ul li{
+    margin-right: 5px;
+    float: left;
+    list-style: none;
+    font-size: 12px;
+    color: white;
+}
+
+
+.purine-topImg{
+/*    position: absolute;*/
+    height: 100%;
+}
+
+.purine-label1{
+    position:absolute;
+    height:68%;
+    top: 15%;
+    left:8.8%;
+}
+.yamada{
+    position:absolute;
+    right: 8.5%;
+    bottom: -1%;
+    height: 81.5%;
+}
+.tujiguti{
+    position: absolute;
+    bottom: -8%;
+    right: 28%;
+    height: 90%;
+}
+.purine-label2{
+    position: absolute;
+    height: 29.5%;
+    top:8%;
+    left:1%;
+}
+.purine-label3{
+    position: absolute;
+    height: 45.5%;
+    right:27%;
+    top: 6%;
+}
+.y-name{
+    position: absolute;
+    height:6.3%;
+    right:1%;
+    bottom:7.5%;
+
+}
+.t-name{
+    position: absolute;
+    height: 6.3%;
+    right:55%;
+    bottom:7.5%;
+}
+
+.purine-topTxt{
+    position: absolute;
+    left: 8%;
+    bottom: 0%;
+    color:white;
+}
+
+/*プリンメニューリスト*/
+
+.purine-menu{
+    width: 100%;
+    color: #011d5a;
+    height: 70px;
+}
+.purine-item{
+    width: 20%;
+    list-style: none;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    line-height: 60px;
+}
+/*ユーザーの声*/
+.purine-userVoice{
+    background: url("./images/purine-voiceBg01.png");
+    padding: 68px 0 74px;
+    background-color: #ffef82;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.purine-title{
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    color: #011d5a;
+    letter-spacing: 0.2em;
+    margin-top: 5%;
+}
+.purine-title:after{
+    content: "";
+    height: 15px;
+    width: 60px;
+    background:url("./images/purine-ttlBorder01.png");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 48%;
+    bottom: -20px;        
+}
+
+.purine-voiceImg{
+    padding-top: 59.3%;
+    position: relative;
+}
+
+.purine01{
+    position: absolute;
+    width: 22%;
+    top: 31%;
+    left:40%;
+}
+
+
+.balloon01{
+   position: absolute;
+    width: 18%;
+    top: 7%;
+    left: 45%
+}
+.balloon02{
+    position: absolute;
+    width: 23%;
+    top: 10%;
+    left: 21%
+}
+.balloon03{
+     position: absolute;
+    width: 17%;
+    top: 13%;
+    right: 18%;
+}
+.balloon04{
+     position: absolute;
+    width: 19%;
+    top: 32%;
+    left: 19%;
+}
+.balloon05{
+     position: absolute;
+    width: 22%;
+    top: 33%;
+    right: 13%;
+}
+.balloon06{
+     position: absolute;
+    width: 19%;
+    left: 19%;
+    top: 54%;
+}
+.balloon07{
+     position: absolute;
+    width: 17%;
+    right:20%;
+    top: 53%;
+}
+.happyCareBanner_on{
+   position: absolute;
+    width: 75%;
+    right:10%;
+    top:79%;
+}
+
+/*商品の紹介*/
+
+.purine-title2{
+   margin: 0 15% 0;
+    padding: 2% 8% 0;
+}
+
+.purine-txt{
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-top: 44px;
+}
+
+.purine-txt2{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.purine-productImg{
+    margin: 15px auto 0;
+    position: relative;
+    padding-bottom: 30%;
+}
+
+/*
+.product-Box1{
+  position: relative;
+     background: url(./images/purine-introduce01-3.png);
+}
+*/
+.purine-introduce01-2{
+    position: absolute;
+    left:14%;
+    top:0%;
+    width: 11%;
+}
+
+.purine001{
+    position: absolute;
+    width: 24%;
+    top:20%;
+    left: 19%;
+    background: url(./images/purine-introduce01-3.png);
+     background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100%;
+
+}
+
+.purine-introduce02-2{
+     position: absolute;
+    width: 11%;
+    top:0%;
+    left:58%;
+}
+
+.purine02{
+    position: absolute;
+    top:17%;
+    left: 62%;
+    width: 27%;
+    background-image: url("./images/purine-introduce02-3.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100%;
+}
+
+/*おいしさの秘密*/
+.txt2{
+    color: #e60012;
+}
+.txt3{
+    color: #4e6a28;
+}
+
+.purine-secret{
+    background-color: #ffef82;
+    margin-top: 3%;
+    padding-top: 90px;
+    background-size: cover;
+    background-position: right bottom;
+    position: relative;
+}
+
+.purine-secretImg{
+    position: relative;
+    background: url("./images/purine-secretBg.png");
+    padding-bottom: 33%;
+    background-size: cover;
+    
+}
+
+.purine-secret01{
+   position: absolute;
+    width: 498px;
+   left:32%;
+    top: 5%;
+    
+}
+
+.secret-peaple{
+    position: absolute;
+    width: 20%;
+    left:16%;
+    top:5.5%;
+}
+
+.purine-secretPpl_name01{
+    position: absolute;
+    width: 8%;
+    top: 70%;
+    left:39%;
+}
+
+.purine-secretTxt{
+    position: absolute;
+    border-top: solid 1px #011d5a;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    top: 76%;
+    left: 39%;
+}
+
+
+/*ロカボってなに？*/
+
+.purine-rokaboImg{
+    max-width: 960px;
+    width:100%;
+    margin: 52px auto 50px;
+    background: #ffef82;
+    border: solid 5px #011d5a;
+    border-radius: 20px;
+    position: relative;
+    padding-bottom: 43%;
+
+}
+.purine-rokabo01{
+    background-color: #011d5a;
+    padding: 30px 52px 36px;
+    margin-left: -1px;
+    border-radius: 10px 10px 0 0;
+}
+
+.purine-rokaboPoint{
+    padding: 0px 0px;
+    padding-bottom: 33%;
+    border-bottom: solid 2px #011d5a;
+    position:relative;
+}
+
+.purine-rokaboPoint2{
+    color: #011d5a;
+    list-style: none;
+    padding:20px;
+    line-height: 2;
+    float: left;
+    width: 27%;
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.purine-rokaboPoint2 + .purine-rokaboPoint2{
+    color: #011d5a;
+    list-style: none;
+    border-left: dotted 4px #011d5a;
+    padding-left:30px;
+    float: left;
+    width: 27%;
+}
+
+.point{
+    width: 90px;
+}
+
+.Purine-rokaboTxt2{
+    margin-top: 8px;
+    line-height: 2;
+    font-size: 15px;
+    margin: 0;
+}
+
+.purine-rokabo02{
+    position: absolute;
+    top: 50%;
+    left:3%;
+    width: 57%;
+}
+
+.purine-rokaboPeaple2{
+    position: absolute;
+    top: 50%;
+    right:7%;
+    width: 26%;
+}
+.ppl02{
+    width: 104%;
+}
+
+.purine-rokaboPeopleList{
+    color: #011d5a;
+}
+.purine-rokaboPeopleItemName{
+   font-size: 1.8rem;
+    border-bottom: 1px solid #011d5a;
+}
+
+.rokaboPeopleItemName-innner{
+    font-size: 1.2rem;
+}
+
+.purine-rokaboButton1{
+    width: 66%;
+    position: absolute;
+    top: 87%;
+    left:3%;
+}
+.purine-rokaboButton2{
+      width: 74%;
+    position: absolute;
+    top: 83%;
+    left: 27%;
+    margin: 3%;
+    padding: 2% 3%;
+}
+   
+.purine-rokaboLink01{
+    letter-spacing: inherit;
+    color: #011d5a;
+    border-radius: 30px;
+    background: white;
+    border: solid 3px #011d5a;
+      text-align: center;
+    padding: 2% 3% 2% 3%;
+    text-decoration: none;
+}
+
+.purine-rokaboLink02{ 
+    letter-spacing: inherit;
+    color: #011d5a;
+    border-radius: 30px;
+    background: white;
+    border: solid 3px #011d5a;
+      text-align: center;
+    padding: 2% 3% 2% 5%;
+    margin-left: 5%;
+    text-decoration: none;
+
+}

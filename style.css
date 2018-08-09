@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'teitoushitsu';
+  src:  url('fonts/teitoushitsu.eot?vzo4so');
+  src:  url('fonts/teitoushitsu.eot?vzo4so#iefix') format('embedded-opentype'),
+    url('fonts/teitoushitsu.ttf?vzo4so') format('truetype'),
+    url('fonts/teitoushitsu.woff?vzo4so') format('woff'),
+    url('fonts/teitoushitsu.svg?vzo4so#teitoushitsu') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'teitoushitsu' !important;
+  speak: none;
+  font-style: normal;
+/*  font-weight:normal;*/
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:after{
+  content: "\e900";
+  color: #011d5a;
+    margin-left: 8px;
+}
