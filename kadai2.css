@@ -1,6 +1,6 @@
 html{
     font-size: 62.5%;
-/*    width: 1300px;*/
+    width: 1300px;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
      color: #011d5a;
 }
 .purine{
-     width: 100%;
+/*     width: 100%;*/
    position: relative;
     font-size: 15px;
     margin: 0;
@@ -22,15 +22,15 @@ body {
     background-image: 
     url("images/purine-kvBg01.png");
     position:relative; 
-    width: 100%;
+/*    width: 100%;*/
     padding-top: 45.6%;
     background-size:cover;
     background-position: center center;
     overflow: hidden;
 }
 
-#purine-header .menu{
-    width: 100%;
+.purine-header .menu{
+/*    width: 100%;*/
     background: transparent;
     position: absolute;
     left: 0px;
@@ -40,12 +40,13 @@ body {
     padding: 12px 0 7px;
 }
 
-#purine-header a{
+.purine-header a{
      color: #e60012;
     text-decoration: none;
 }
 
-#purine-header ul li{
+
+.purine-header ul li{
     margin-right: 5px;
     float: left;
     list-style: none;
@@ -65,13 +66,13 @@ body {
     top: 15%;
     left:8.8%;
 }
-.yamada{
+.purine-yamada{
     position:absolute;
     right: 8.5%;
     bottom: -1%;
     height: 81.5%;
 }
-.tujiguti{
+.purine-tujiguti{
     position: absolute;
     bottom: -8%;
     right: 28%;
@@ -89,14 +90,14 @@ body {
     right:27%;
     top: 6%;
 }
-.y-name{
+.purine-yamadaName{
     position: absolute;
     height:6.3%;
     right:1%;
     bottom:7.5%;
 
 }
-.t-name{
+.purine-tujigutiName{
     position: absolute;
     height: 6.3%;
     right:55%;
@@ -113,7 +114,7 @@ body {
 /*プリンメニューリスト*/
 
 .purine-menu{
-    width: 100%;
+/*    width: 100%;*/
     color: #011d5a;
     height: 70px;
 }
@@ -124,7 +125,14 @@ body {
     text-align: center;
     font-weight: bold;
     line-height: 60px;
+/*     text-decoration: none;*/
 }
+
+.purine-item a{
+    text-decoration: none;
+    color: #011d5a;
+}
+
 /*ユーザーの声*/
 .purine-userVoice{
     background: url("./images/purine-voiceBg01.png");
@@ -222,7 +230,7 @@ body {
 /*商品の紹介*/
 
 .purine-title2{
-   margin: 0 15% 0;
+   margin: 0 10% 0;
     padding: 2% 8% 0;
 }
 
@@ -252,7 +260,7 @@ body {
 */
 .purine-introduce01-2{
     position: absolute;
-    left:14%;
+    left:16%;
     top:0%;
     width: 11%;
 }
@@ -266,6 +274,7 @@ body {
      background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 100%;
+    padding: 0 19px 26px;
 
 }
 
@@ -348,7 +357,7 @@ body {
 
 .purine-rokaboImg{
     max-width: 960px;
-    width:100%;
+/*    width:100%;*/
     margin: 52px auto 50px;
     background: #ffef82;
     border: solid 5px #011d5a;
@@ -360,21 +369,29 @@ body {
 .purine-rokabo01{
     background-color: #011d5a;
     padding: 30px 52px 36px;
-    margin-left: -1px;
+    margin: -1px;
     border-radius: 10px 10px 0 0;
 }
 
-.purine-rokaboPoint{
-    padding: 0px 0px;
-    padding-bottom: 33%;
+
+
+.clearfix{
+    padding: 15px 0px;
     border-bottom: solid 2px #011d5a;
-    position:relative;
 }
+
+
+.clearfix:after{
+    content: "";
+    display:table;
+    clear: both;
+}
+
 
 .purine-rokaboPoint2{
     color: #011d5a;
     list-style: none;
-    padding:20px;
+    padding:0 28px;
     line-height: 2;
     float: left;
     width: 27%;
@@ -386,7 +403,7 @@ body {
     color: #011d5a;
     list-style: none;
     border-left: dotted 4px #011d5a;
-    padding-left:30px;
+/*    padding-left:30px;*/
     float: left;
     width: 27%;
 }
@@ -416,11 +433,14 @@ body {
     width: 26%;
 }
 .ppl02{
-    width: 104%;
+    width: 92%;
 }
 
 .purine-rokaboPeopleList{
     color: #011d5a;
+    position: absolute;
+    top: 97%;
+    
 }
 .purine-rokaboPeopleItemName{
    font-size: 1.8rem;
@@ -430,19 +450,21 @@ body {
 .rokaboPeopleItemName-innner{
     font-size: 1.2rem;
 }
-
+.purine-rokaboPeopleItemabout{
+    font-size: 1.3rem;
+}
 .purine-rokaboButton1{
-    width: 66%;
+   width: 60%;
     position: absolute;
-    top: 87%;
+    top: 91%;
     left:3%;
 }
 .purine-rokaboButton2{
-      width: 74%;
+      width: 60%;
     position: absolute;
-    top: 83%;
+    top: 86.5%;
     left: 27%;
-    margin: 3%;
+   margin: 3%;
     padding: 2% 3%;
 }
    
@@ -453,7 +475,7 @@ body {
     background: white;
     border: solid 3px #011d5a;
       text-align: center;
-    padding: 2% 3% 2% 3%;
+    padding: 2%;
     text-decoration: none;
 }
 
@@ -463,8 +485,8 @@ body {
     border-radius: 30px;
     background: white;
     border: solid 3px #011d5a;
-      text-align: center;
-    padding: 2% 3% 2% 5%;
+/*      text-align: center;*/
+    padding: 2%;
     margin-left: 5%;
     text-decoration: none;
 
