@@ -63,38 +63,38 @@ body {
     top: 15%;
     left:8.8%;
 }
-.purine-yamada{
+.purine-topImgYamada{
     position:absolute;
     right: 8.5%;
     bottom: -1%;
     height: 81.5%;
 }
-.purine-tujiguti{
+.purine-topImgTujiguti{
     position: absolute;
     bottom: -8%;
     right: 28%;
     height: 90%;
 }
-.purine-label2{
+.purine-topImgLabel2{
     position: absolute;
     height: 29.5%;
     top:8%;
     left:1%;
 }
-.purine-label3{
+.purine-topImgLabel3{
     position: absolute;
     height: 45.5%;
     right:27%;
     top: 6%;
 }
-.purine-yamadaName{
+.purine-topImgYamadaName{
     position: absolute;
     height:6.3%;
     right:1%;
     bottom:7.5%;
 
 }
-.purine-tujigutiName{
+.purine-topImgTujigutiName{
     position: absolute;
     height: 6.3%;
     right:55%;
@@ -165,7 +165,7 @@ body {
     position: relative;
 }
 
-.purine01{
+.purine-voiceImg01{
     position: absolute;
     width: 22%;
     top: 31%;
@@ -173,49 +173,49 @@ body {
 }
 
 
-.balloon01{
+.purine-voiceImgBalloon01{
    position: absolute;
     width: 18%;
     top: 7%;
     left: 45%
 }
-.balloon02{
+.purine-voiceImgBalloon02{
     position: absolute;
     width: 23%;
     top: 10%;
     left: 21%
 }
-.balloon03{
+.purine-voiceImgBalloon03{
      position: absolute;
     width: 17%;
     top: 13%;
     right: 18%;
 }
-.balloon04{
+.purine-voiceImgBalloon04{
      position: absolute;
     width: 19%;
     top: 32%;
     left: 19%;
 }
-.balloon05{
+.purine-voiceImgBalloon05{
      position: absolute;
     width: 22%;
     top: 33%;
     right: 13%;
 }
-.balloon06{
+.purine-voiceImgBalloon06{
      position: absolute;
     width: 19%;
     left: 19%;
     top: 54%;
 }
-.balloon07{
+.purine-voiceImgBalloon07{
      position: absolute;
     width: 17%;
     right:20%;
     top: 53%;
 }
-.happyCareBanner_on{
+.purine-voiceImgHappyCareBanner_on{
    position: absolute;
     width: 75%;
     right:10%;
@@ -247,14 +247,14 @@ body {
     padding-bottom: 30%;
 }
 
-.purine-introduce01-2{
+.purine-productImgIntroduce01-2{
     position: absolute;
     left:16%;
     top:0%;
     width: 11%;
 }
 
-.purine001{
+.purine-productImg01{
     position: absolute;
     width: 24%;
     top:20%;
@@ -267,14 +267,14 @@ body {
 
 }
 
-.purine-introduce02-2{
+.purine-productImgIntroduce02-2{
      position: absolute;
     width: 11%;
     top:0%;
     left:58%;
 }
 
-.purine02{
+.purine-productImg02{
     position: absolute;
     top:17%;
     left: 62%;
@@ -286,10 +286,10 @@ body {
 }
 
 /*おいしさの秘密*/
-.txt2{
+.purine-secretTxt2{
     color: #e60012;
 }
-.txt3{
+.purine-secretTxt3{
     color: #4e6a28;
 }
 
@@ -310,7 +310,7 @@ body {
     
 }
 
-.purine-secret01{
+.purine-secretImg01{
    position: absolute;
     width: 498px;
    left:32%;
@@ -318,14 +318,14 @@ body {
     
 }
 
-.secret-peaple{
+.purine-secretImgPeaple{
     position: absolute;
     width: 20%;
     left:16%;
     top:5.5%;
 }
 
-.purine-secretPpl_name01{
+.purine-secretImg_name01{
     position: absolute;
     width: 8%;
     top: 70%;
@@ -355,7 +355,7 @@ body {
     padding-bottom: 43%;
 
 }
-.purine-rokabo01{
+.purine-rokaboImg01{
     background-color: #011d5a;
     padding: 30px 52px 36px;
     margin: -1px;
@@ -377,7 +377,7 @@ body {
 }
 
 
-.purine-rokaboPoint2{
+.purine-rokaboPointlist{
     color: #011d5a;
     list-style: none;
     padding:0 28px;
@@ -388,7 +388,7 @@ body {
     font-size: 1.4rem;
 }
 
-.purine-rokaboPoint2 + .purine-rokaboPoint2{
+.purine-rokaboPointlist + .purine-rokaboPointlist{
     color: #011d5a;
     list-style: none;
     border-left: dotted 4px #011d5a;
@@ -397,7 +397,7 @@ body {
     width: 27%;
 }
 
-.point{
+.purine-rokaboPoint{
     width: 90px;
 }
 
@@ -408,7 +408,7 @@ body {
     margin: 0;
 }
 
-.purine-rokabo02{
+.purine-rokaboImg02{
     position: absolute;
     top: 50%;
     left:3%;
@@ -421,7 +421,7 @@ body {
     right:7%;
     width: 26%;
 }
-.ppl02{
+.purine-rokaboImg03{
     width: 92%;
 }
 
@@ -436,7 +436,7 @@ body {
     border-bottom: 1px solid #011d5a;
 }
 
-.rokaboPeopleItemName-innner{
+.purine-rokaboPeopleItemName-innner{
     font-size: 1.2rem;
 }
 .purine-rokaboPeopleItemabout{
