@@ -1,16 +1,15 @@
 html{
     font-size: 62.5%;
-    width: 1300px;
+    
 }
 
 body {
-/*    width: 1300px;*/
+    width: 1300px;
     height:auto;
      margin: 0;
      color: #011d5a;
 }
 .purine{
-/*     width: 100%;*/
    position: relative;
     font-size: 15px;
     margin: 0;
@@ -30,7 +29,6 @@ body {
 }
 
 .purine-header .menu{
-/*    width: 100%;*/
     background: transparent;
     position: absolute;
     left: 0px;
@@ -56,7 +54,6 @@ body {
 
 
 .purine-topImg{
-/*    position: absolute;*/
     height: 100%;
 }
 
@@ -114,7 +111,6 @@ body {
 /*プリンメニューリスト*/
 
 .purine-menu{
-/*    width: 100%;*/
     color: #011d5a;
     height: 70px;
 }
@@ -125,7 +121,6 @@ body {
     text-align: center;
     font-weight: bold;
     line-height: 60px;
-/*     text-decoration: none;*/
 }
 
 .purine-item a{
@@ -252,12 +247,6 @@ body {
     padding-bottom: 30%;
 }
 
-/*
-.product-Box1{
-  position: relative;
-     background: url(./images/purine-introduce01-3.png);
-}
-*/
 .purine-introduce01-2{
     position: absolute;
     left:16%;
