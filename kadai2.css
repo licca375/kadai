@@ -6,7 +6,7 @@ html{
 body {
     width: 1300px;
     height:auto;
-     margin: 0;
+     margin: 0 auto;
      color: #011d5a;
 }
 .purine{
@@ -23,6 +23,7 @@ body {
     position:relative; 
 /*    width: 100%;*/
     padding-top: 45.6%;
+    padding-bottom: 5%;
     background-size:cover;
     background-position: center center;
     overflow: hidden;
@@ -59,44 +60,45 @@ body {
 
 .purine-label1{
     position:absolute;
-    height:68%;
-    top: 15%;
-    left:8.8%;
+    top: 22%;
+    left:7%;
+    width: 35%;
 }
+
+.purine-topImgList{
+	list-style: none;
+}
+
 .purine-topImgYamada{
     position:absolute;
-    right: 8.5%;
+    right: 7%;
     bottom: -1%;
-    height: 81.5%;
+    width: 32%;
 }
 .purine-topImgTujiguti{
     position: absolute;
     bottom: -8%;
-    right: 28%;
-    height: 90%;
-}
+    right: 25%;
+    width: 30%;
+  }
 .purine-topImgLabel2{
     position: absolute;
-    height: 29.5%;
-    top:8%;
-    left:1%;
+    top:10%;
+    left:0%;
 }
 .purine-topImgLabel3{
     position: absolute;
-    height: 45.5%;
     right:27%;
     top: 6%;
 }
 .purine-topImgYamadaName{
     position: absolute;
-    height:6.3%;
     right:1%;
     bottom:7.5%;
 
 }
 .purine-topImgTujigutiName{
     position: absolute;
-    height: 6.3%;
     right:55%;
     bottom:7.5%;
 }
@@ -163,6 +165,7 @@ body {
 .purine-voiceImg{
     padding-top: 59.3%;
     position: relative;
+    list-style: none;
 }
 
 .purine-voiceImg01{
@@ -235,50 +238,57 @@ body {
     line-height: 1.8;
     margin-top: 44px;
 }
-
+kadai2.html
 .purine-txt2{
     text-align: center;
     font-size: 1.2rem;
 }
 
 .purine-productImg{
-    margin: 15px auto 0;
-    position: relative;
-    padding-bottom: 30%;
+    margin: 80px auto 0;
+    text-align: center;
 }
 
+
+
+.purine-productImgIntroduce{
+	position: absolute;
+	left: 6%;
+	top: -17%;
+	width: 28%;
+	z-index: -1;
+	
+}
+
+
+.aaa{
+	display: inline-block;
+	position: relative;
+	
+}
+
+/*
 .purine-productImgIntroduce01-2{
-    position: absolute;
-    left:16%;
-    top:0%;
     width: 11%;
 }
+*/
 
 .purine-productImg01{
-    position: absolute;
-    width: 24%;
-    top:20%;
-    left: 19%;
+    width: 75%;
     background: url(./images/purine-introduce01-3.png);
      background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 100%;
-    padding: 0 19px 26px;
-
 }
 
+/*
 .purine-productImgIntroduce02-2{
-     position: absolute;
     width: 11%;
-    top:0%;
-    left:58%;
 }
+*/
 
 .purine-productImg02{
-    position: absolute;
-    top:17%;
-    left: 62%;
-    width: 27%;
+    width: 75%;
     background-image: url("./images/purine-introduce02-3.png");
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -346,13 +356,12 @@ body {
 
 .purine-rokaboImg{
     max-width: 960px;
-/*    width:100%;*/
     margin: 52px auto 50px;
     background: #ffef82;
     border: solid 5px #011d5a;
     border-radius: 20px;
     position: relative;
-    padding-bottom: 43%;
+    padding-bottom: 3%;
 
 }
 .purine-rokaboImg01{
@@ -392,7 +401,6 @@ body {
     color: #011d5a;
     list-style: none;
     border-left: dotted 4px #011d5a;
-/*    padding-left:30px;*/
     float: left;
     width: 27%;
 }
@@ -408,17 +416,23 @@ body {
     margin: 0;
 }
 
-.purine-rokaboImg02{
-    position: absolute;
-    top: 50%;
-    left:3%;
+.clearfix2:after{
+    content: "";
+    display:table;
+    clear: both;
+}
+
+
+
+.purine-rokaboImg02{  
+    float: left;
     width: 57%;
+    margin: 5%;
 }
 
 .purine-rokaboPeaple2{
-    position: absolute;
-    top: 50%;
-    right:7%;
+    float: right;
+    margin: 4% 7% 0% 0%;
     width: 26%;
 }
 .purine-rokaboImg03{
@@ -442,19 +456,16 @@ body {
 .purine-rokaboPeopleItemabout{
     font-size: 1.3rem;
 }
-.purine-rokaboButton1{
-   width: 60%;
-    position: absolute;
-    top: 91%;
-    left:3%;
+
+.purine-rokaboButton{
+	margin: 0%;
+	padding-left: 8px;
+	list-style: none;
+	float:left; 
 }
+
 .purine-rokaboButton2{
-      width: 60%;
-    position: absolute;
-    top: 86.5%;
-    left: 27%;
-   margin: 3%;
-    padding: 2% 3%;
+display: inline-block;
 }
    
 .purine-rokaboLink01{
@@ -464,19 +475,21 @@ body {
     background: white;
     border: solid 3px #011d5a;
       text-align: center;
-    padding: 2%;
+    padding: 5%;
+    margin: 0% 3%;
     text-decoration: none;
 }
 
+/*
 .purine-rokaboLink02{ 
     letter-spacing: inherit;
     color: #011d5a;
     border-radius: 30px;
     background: white;
     border: solid 3px #011d5a;
-/*      text-align: center;*/
-    padding: 2%;
+    padding: 4%;
     margin-left: 5%;
     text-decoration: none;
 
 }
+*/
